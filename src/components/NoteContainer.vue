@@ -1,16 +1,16 @@
 <script>
-import NoteSelector from "./NoteSelectors.vue";
+import NoteSelectors from "./NoteSelectors.vue";
 
 export default {
   components: {
-    NoteSelector,
+    NoteSelectors,
   },
 };
 </script>
 
 <template>
   <div class="note-container">
-    <NoteSelector />
+    <NoteSelectors />
     <div class="note-editor">
       <p class="note-editor-info">Timestamp here...</p>
       <textarea class="note-editor-input">First note... Note text here...</textarea>
